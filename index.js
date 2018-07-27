@@ -23,10 +23,11 @@ a[1].split(' ') = 'Sammy Watkins'
 */
 function attributesToPhrase(list){
   return list.map( (ele) => {
+    console.log(ele)
     let info = ele.split(' is from ')
     return {'name': info[0], 'hometown':info[1]}
   })
 }
 /*
-  
+
 */
